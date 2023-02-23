@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Notes_Interface_s_
 {
-    internal class Window : IOpen
+    internal class Window// : IOpen
     {
 
     }

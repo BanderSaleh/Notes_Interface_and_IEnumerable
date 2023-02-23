@@ -55,9 +55,22 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Bottle.cs" />
     <Compile Include="ClassRoster.cs" />
+    <Compile Include="Hogwarts Legacy.xaml.cs">
+      <DependentUpon>Hogwarts Legacy.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="IOpen.cs" />
+    <Compile Include="Notes.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Student.cs" />
+    <Compile Include="Student_SortFirstNameDsc.cs" />
+    <Compile Include="Student_SortGenEdGradeDsc.cs" />
     <Compile Include="Window.cs" />
+    <Page Include="Hogwarts Legacy.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -67,7 +80,6 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Door.cs" />
-    <Compile Include="IOpen.cs" />
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
